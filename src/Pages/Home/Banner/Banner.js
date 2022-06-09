@@ -3,7 +3,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <section className='d-flex align-items-center justify-content-center banner'>
+        <section className='d-flex align-items-center justify-content-center banner' id='home'>
             <div className='container row pt-3'>
                 <div className='col-md-7 d-flex align-items-center text-center text-lg-start'>
                     <div>

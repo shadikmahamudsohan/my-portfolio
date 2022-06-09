@@ -25,7 +25,7 @@ const Contact = () => {
     };
 
     return (
-        <section className='contact-page py-5 py-4 d-flex align-items-center justify-content-center'>
+        <section id='contact' className='contact-page py-5 py-4 d-flex align-items-center justify-content-center'>
             <div>
                 <h1 className="header text-center mb-4">Please Contact With Me</h1>
                 <Form noValidate validated={validated} onSubmit={handleSubmit} className='container bg-light py-5 rounded-3 px-4'>

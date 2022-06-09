@@ -13,7 +13,7 @@ const Projects = () => {
         { id: 3, name: 'Red-Onion', description: 'It is a food-related website where you can order food. You can see you ordered food in the cart.', img: 'https://i.ibb.co/jvzP5qk/2022-06-09-1.png', link: "https://red-onion-c424a.web.app/" },
     ];
     return (
-        <section className='project-section py-4 d-flex align-items-center justify-content-center'>
+        <section className='project-section py-4 d-flex align-items-center justify-content-center' id='projects'>
             <div className="container ">
                 <h1 className="text-center header mb-5">My Projects</h1>
                 <div>
