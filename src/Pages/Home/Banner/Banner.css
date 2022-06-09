@@ -1,0 +1,21 @@
+.banner {
+    /* height: 100vh; */
+    background-color: #013a63;
+}
+
+.title {
+    font-weight: bold;
+    color: #a9d6e5;
+}
+
+.small-title {
+    font-size: 30px;
+}
+
+.name-title {
+    font-size: 55px;
+}
+
+.work-title {
+    font-size: 40px;
+}
