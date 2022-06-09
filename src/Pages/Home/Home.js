@@ -11,7 +11,7 @@ const Home = () => {
             <Banner />
             <Projects />
             <Contact />
-            <p style={{ color: '#A9D6E5', background: '#012A4A' }} className='py-3 text-center'>&copy; 2022 All right reserved</p>
+            <p style={{ color: '#A9D6E5', background: '#012A4A', margin: '0' }} className='py-3 text-center'>&copy; 2022 All right reserved</p>
         </div>
     );
 };
