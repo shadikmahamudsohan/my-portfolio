@@ -7,13 +7,15 @@ const Projects = () => {
         {
             id: 1, name: 'PharmaBD', description: 'It is an inventory management website for medical products management. This web site is for managing pharmacy products.', img: 'https://i.ibb.co/3S6tqvT/2022-06-09.png', link: "https://pharmabd-9c8e0.web.app/"
         },
-        { id: 2, name: 'Red-Onion', description: 'It is a short description2', img: 'https://i.ibb.co/jvzP5qk/2022-06-09-1.png', link: "https://red-onion-c424a.web.app/" },
-        { id: 3, name: 'ToolsNestBD', description: 'It is a short description3', img: 'https://i.ibb.co/V3KfvJG/2022-06-08.png', link: "https://toolsnestbd.web.app/" },
+        {
+            id: 2, name: 'ToolsNestBD', description: 'It is a tools manufacturer website where you can book mechanical tools. This is a website for ordering mechanical product', img: 'https://i.ibb.co/V3KfvJG/2022-06-08.png', link: "https://toolsnestbd.web.app/"
+        },
+        { id: 3, name: 'Red-Onion', description: 'It is a food-related website where you can order food. You can see you ordered food in the cart.', img: 'https://i.ibb.co/jvzP5qk/2022-06-09-1.png', link: "https://red-onion-c424a.web.app/" },
     ];
     return (
-        <section className='project-section py-4'>
+        <section className='project-section py-4 d-flex align-items-center justify-content-center'>
             <div className="container ">
-                <h1 className="text-center header mb-4">My Projects</h1>
+                <h1 className="text-center header mb-5">My Projects</h1>
                 <div>
                     <Row xs={1} md={2} lg={3} className="g-4">
                         {

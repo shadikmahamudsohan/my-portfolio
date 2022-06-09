@@ -35,7 +35,7 @@
 }
 
 .project:hover .project-img {
-    transform: translate(-50%, -50%) scale(1.3) rotate(20deg)
+    transform: translate(-50%, -50%) scale(1.3) rotate(15deg)
 }
 
 .project-img {
