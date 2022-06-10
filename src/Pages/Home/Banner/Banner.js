@@ -1,7 +1,10 @@
 import React from 'react';
 import './Banner.css';
+import Typewriter from 'typewriter-effect';
+
 
 const Banner = () => {
+
     return (
         <section className='d-flex align-items-center justify-content-center banner' id='home'>
             <div className='container row pt-3'>
@@ -17,11 +20,20 @@ const Banner = () => {
                             data-aos-delay='400'
                             data-aos-duration='900'
                             className='title name-title'>M.d. Shadik Mahamud</h1>
-                        <h1
-                            data-aos='fade-right'
+                        <div data-aos='fade-right'
                             data-aos-delay='450'
-                            data-aos-duration='1000'
-                            className='title work-title'>I am a web developer!</h1>
+                            data-aos-duration='1000'>
+                            <Typewriter
+                                options={{
+                                    strings: ['I am a web developer', 'I am a front-end developer', 'I am a MERN developer'],
+                                    autoStart: true,
+                                    loop: true,
+                                    wrapperClassName: 'title work-title',
+                                    cursorClassName: 'title work-title'
+                                }}
+                            />
+                        </div>
+
                         <a
                             data-aos='fade-right'
                             data-aos-delay='650'

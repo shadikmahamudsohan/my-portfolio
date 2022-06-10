@@ -17,3 +17,36 @@ body {
   color: #A9D6E5 !important;
   transition: 500ms !important;
 }
+
+
+/* transparent scrollbar */
+div::-webkit-scrollbar {
+  width: 12px;
+}
+
+div::-webkit-scrollbar-thumb {
+  border: 2px solid #01497C;
+  border-radius: 20px;
+}
+
+
+/* width */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #012A4A;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #A9D6E5;
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:active {
+  background: #468FAF;
+}
