@@ -6,16 +6,19 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Route, Routes } from 'react-router-dom';
 import ProjectPage from './Pages/ProjectPage/ProjectPage';
 import HeaderNav from './Pages/Home/HeaderNav/HeaderNav';
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
     <div className="app">
       <ToastContainer />
       <HeaderNav />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/project/:id" element={<ProjectPage />} />
-      </Routes>
+      <AnimatePresence exitBeforeEnter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/project/:id" element={<ProjectPage />} />
+        </Routes>
+      </AnimatePresence>
     </div>
   );
 }

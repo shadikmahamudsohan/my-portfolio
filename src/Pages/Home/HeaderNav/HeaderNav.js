@@ -7,7 +7,7 @@ const HeaderNav = () => {
     const location = useLocation();
     console.log();
     return (
-        <Navbar className='navbar' expand="lg" sticky='top' >
+        <Navbar className='navbar' expand="lg" sticky='top' variant="dark">
             <Container>
                 <Navbar.Brand as={Link} to="/" className='nav-link fw-bold rounded-3'>My Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -16,6 +16,7 @@ const HeaderNav = () => {
                         {
                             location.pathname === "/" ? <>
                                 <Nav.Link className='nav-link mx-2 px-3 rounded-3' href="#home">Home</Nav.Link>
+                                <Nav.Link className='nav-link mx-2 px-3 rounded-3' href="#about">About</Nav.Link>
                                 <Nav.Link className='nav-link mx-2 px-3 rounded-3' href="#projects">Projects</Nav.Link>
                                 <Nav.Link className='nav-link mx-2 px-3 rounded-3' href="#contact">Contact</Nav.Link>
                             </> : <>
