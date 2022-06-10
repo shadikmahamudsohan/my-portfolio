@@ -1,7 +1,7 @@
 {
     "id": 2,
     "name": "ToolsNestBD",
-    "description": "It is a tools manufacturer website where you can book mechanical tools. This is a website for ordering mechanical product. The user can order his products form the home page. The user hove to be logged to make a order. The user can see his order in the my order page. He can pay for his product with credit card. The admin can approve his product. He can add new products and make new admin. He can delete any product. There is a profile and review section. User can add a review which will be sone in the home page.",
+    "description": "It is a tools manufacturer website where you can book mechanical tools.  This is a website for ordering mechanical product.  The user can order his products form the home page.  The user hove to be logged to make a order. The user can see his order in the my order page.  He can pay for his product with credit card.  The admin can approve his product.  He can add new products and make new admin.  He can delete any product. There is a profile and review section.  User can add a review which will be sone in the home page.",
     "mainImg": "https://i.ibb.co/V3KfvJG/2022-06-08.png",
     "img": [
         {

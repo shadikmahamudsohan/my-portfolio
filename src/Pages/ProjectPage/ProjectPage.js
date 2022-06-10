@@ -23,6 +23,7 @@ const ProjectPage = () => {
         setSlider(slider);
         setSelected(i);
     };
+    const splitting = projects?.description?.split("  ");
     return (
         <AnimatedPage>
             <div className='project-container'>
@@ -41,7 +42,11 @@ const ProjectPage = () => {
                         </div>
                         <div className="col-md-6">
                             <h1 className='work-title'>{projects?.name}</h1>
-                            <p>{projects.description}</p>
+                            <ul>
+                                {splitting &&
+                                    splitting.map((t, i) => <li key={i}>{t}</li>)
+                                }
+                            </ul>
                             <a className='btn btn-light' href={projects?.link} target="_blank" rel="noreferrer">Vew Website</a>
                         </div>
                     </div>
