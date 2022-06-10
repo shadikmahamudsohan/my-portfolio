@@ -6,24 +6,22 @@ import { toast } from 'react-toastify';
 
 const Contact = () => {
     const [validated, setValidated] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     const handleSubmit = (event) => {
         event.preventDefault();
         const form = event.currentTarget;
         if (form.checkValidity() === false) {
-            // event.preventDefault();
             event.stopPropagation();
-        }
-
-        setValidated(true);
-
-        if (validated) {
+        } else {
+            setLoading(true);
             emailjs.sendForm('service_52pzts8', 'template_i0ozwp3', event.target, '0eKoB3IdMy7pPubVL').then(res => {
                 toast.success("Email Sended!");
+                setLoading(false);
             }).catch(error => toast.error("Some thing went wrong!"));
         }
+        setValidated(true);
     };
-
     return (
         <section id='contact' className='contact-page py-5 py-4 d-flex align-items-center justify-content-center'>
             <div>
@@ -43,14 +41,14 @@ const Contact = () => {
                             Please choose a email.
                         </Form.Control.Feedback>
                     </Form.Group>
-                    <Form.Group className="mb-3" name='message' controlId="message">
+                    <Form.Group className="mb-3" controlId="message">
                         <Form.Label>You message</Form.Label>
-                        <Form.Control required as="textarea" rows={3} />
+                        <Form.Control name='message' required as="textarea" rows={3} />
                         <Form.Control.Feedback type="invalid">
                             Please choose a message.
                         </Form.Control.Feedback>
                     </Form.Group>
-                    <button type="submit" className='btn btn-primary'>Submit</button>
+                    <button type="submit" disabled={loading} className='btn btn-primary'>Submit</button>
                 </Form>
             </div>
         </section>

@@ -1,0 +1,9 @@
+.project-container {
+    background-color: #013A63;
+    min-height: 100vh;
+    color: #A9D6E5;
+}
+
+.slider-img {
+    cursor: pointer;
+}
