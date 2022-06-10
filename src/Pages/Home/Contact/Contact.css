@@ -2,3 +2,13 @@
     background-color: #014F86;
     min-height: 100vh;
 }
+
+.form-container {
+    background-color: #013A63;
+    color: #A9D6E5;
+}
+
+.other-contact {
+    color: #A9D6E5;
+    font-size: 20px;
+}

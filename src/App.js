@@ -7,6 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 import ProjectPage from './Pages/ProjectPage/ProjectPage';
 import HeaderNav from './Pages/Home/HeaderNav/HeaderNav';
 import { AnimatePresence } from "framer-motion";
+import Blog from '../src/Pages/Blog/Blog';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project/:id" element={<ProjectPage />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </AnimatePresence>
     </div>

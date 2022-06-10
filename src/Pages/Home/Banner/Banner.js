@@ -38,7 +38,7 @@ const Banner = () => {
                             data-aos='fade-right'
                             data-aos-delay='650'
                             data-aos-duration='1000'
-                            className="btn btn-light mt-5 py-lg-2 px-lg-3 py-3 px-5" href="https://drive.google.com/file/d/1N1YUwIi6Xnqf-qvKLhy_glELG0ziDxvj/view?usp=sharing" target="_blank" without rel="noreferrer" download>Download Resume</a>
+                            className="btn btn-light mt-5 py-lg-2 px-lg-3 py-3 px-5" href="https://drive.google.com/file/d/1N1YUwIi6Xnqf-qvKLhy_glELG0ziDxvj/view?usp=sharing" target="_blank" without rel="noreferrer">Download Resume</a>
                     </div>
                 </div>
                 <div className='col-md-5'>

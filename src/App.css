@@ -18,6 +18,17 @@ body {
   transition: 500ms !important;
 }
 
+.btn-info {
+  background-color: #05aae1 !important;
+  color: #012A4A !important;
+}
+
+.btn-info:hover {
+  background-color: #01497C !important;
+  color: #A9D6E5 !important;
+  transition: 500ms !important;
+}
+
 
 /* transparent scrollbar */
 div::-webkit-scrollbar {

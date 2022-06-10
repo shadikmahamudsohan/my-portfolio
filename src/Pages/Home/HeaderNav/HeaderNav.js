@@ -23,6 +23,7 @@ const HeaderNav = () => {
                                 <Nav.Link className='nav-link mx-2 px-3 rounded-3' as={Link} to="/">Home</Nav.Link>
                             </>
                         }
+                        <Nav.Link className='nav-link mx-2 px-3 rounded-3' as={Link} to="/blog">Blog</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
