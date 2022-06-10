@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "name": "PharmaBD",
-        "description": "It is an inventory management website for medical products management. This web site is for managing pharmacy products.",
-        "mainImg": "https://i.ibb.co/3S6tqvT/2022-06-09.png"
-    },
-    {
-        "id": 2,
         "name": "ToolsNestBD",
         "description": "It is a tools manufacturer website where you can book mechanical tools. This is a website for ordering mechanical product.",
         "mainImg": "https://i.ibb.co/V3KfvJG/2022-06-08.png"
+    },
+    {
+        "id": 2,
+        "name": "PharmaBD",
+        "description": "It is an inventory management website for medical products management. This web site is for managing pharmacy products.",
+        "mainImg": "https://i.ibb.co/3S6tqvT/2022-06-09.png"
     },
     {
         "id": 3,

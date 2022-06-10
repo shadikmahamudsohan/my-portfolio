@@ -31,8 +31,8 @@ const ProjectPage = () => {
                         <br />
                         <div className='row g-3'>
                             {
-                                projects?.img?.map((p, i) => <div key={i} className='col-4'>
-                                    <img src={p.png} className={`img-fluid mt-3 slider-img rounded-3 shadow ${selected === i && 'border border-3 border-info'}`} onClick={() => handleSelect(i)} alt=''></img>
+                                projects?.img?.map((p, i) => <div key={i} className='col-3'>
+                                    <img src={p.png} className={`img-fluid mt-3 slider-img rounded-3 shadow ${selected === i && 'border border-3 border-dark'}`} onClick={() => handleSelect(i)} alt=''></img>
                                 </div>)
                             }
                         </div>

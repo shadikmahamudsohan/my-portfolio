@@ -2,3 +2,18 @@
   font-weight: bold;
   color: #a9d6e5;
 }
+
+.btn-light {
+  background-color: #A9D6E5 !important;
+  color: #012A4A !important;
+  transition: 500ms !important;
+}
+
+.btn-light:hover {
+  background-color: #01497C !important;
+  color: #A9D6E5 !important;
+}
+
+.btn-light:active {
+  transform: scale(0.8);
+}

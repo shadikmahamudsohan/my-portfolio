@@ -1,18 +1,21 @@
 {
-    "id": 2,
-    "name": "ToolsNestBD",
-    "description": "It is a tools manufacturer website where you can book mechanical tools. This is a website for ordering mechanical product.",
-    "mainImg": "https://i.ibb.co/V3KfvJG/2022-06-08.png",
+    "id": 1,
+    "name": "PharmaBD",
+    "description": "It is an inventory management website for medical products management. This web site is for managing pharmacy products. Here the user can manage his medical orders. He can increase and decrease his orders. There is a email, and google based authentication",
+    "mainImg": "https://i.ibb.co/3S6tqvT/2022-06-09.png",
     "img": [
         {
-            "png": "https://i.ibb.co/V3KfvJG/2022-06-08.png"
+            "png": "https://i.ibb.co/3S6tqvT/2022-06-09.png"
         },
         {
-            "png": "https://i.ibb.co/V3KfvJG/2022-06-08.png"
+            "png": "https://i.ibb.co/99Lt4Cs/2022-06-10-2.png"
         },
         {
-            "png": "https://i.ibb.co/V3KfvJG/2022-06-08.png"
+            "png": "https://i.ibb.co/qnrPMgw/2022-06-10-3.png"
+        },
+        {
+            "png": "https://i.ibb.co/HrxbrY3/2022-06-10-4.png"
         }
     ],
-    "link": "https://toolsnestbd.web.app/"
+    "link": "https://pharmabd-9c8e0.web.app/"
 }
